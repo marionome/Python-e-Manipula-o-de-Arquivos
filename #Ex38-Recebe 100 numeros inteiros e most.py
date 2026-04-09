@@ -41,7 +41,7 @@ def main():
     global maior, menor
     maior = int(0) 
     menor = int(0)
-    dir=r"C:\Users\mario\OneDrive\Área de Trabalho\www"
+    dir=r"/tmp/exercicios"
     arq="ex38.txt"
     os.makedirs(dir,exist_ok=True)
     os.chmod(dir,0o744)

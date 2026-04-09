@@ -25,7 +25,7 @@ def ler_arq(dir,arqu):
 def main():
     global arq
     global dir
-    dir = r"C:\Users\mario\OneDrive\Área de Trabalho\www"
+    dir = r"/tmp/exercicios"
     arq = "ex38.txt"
     os.chmod(dir,0o744)
     ler_arq(dir,arq)
